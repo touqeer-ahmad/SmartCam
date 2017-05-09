@@ -5,8 +5,8 @@ import datetime
 
 def email(email_address):
     to = email_address # Email to send to
-    gmail_user = 'smile.touqeer@gmail.com' # Email to send from (MUST BE GMAIL)
-    gmail_password = 'urnzlguyreltpfar' # Google App Password
+    gmail_user = 'Email' # Email to send from (MUST BE GMAIL)
+    gmail_password = 'password' # Google App Password
     smtpserver = smtplib.SMTP('smtp.gmail.com', 587) # Server to use
 
     smtpserver.ehlo()  # Says 'hello' to the server
